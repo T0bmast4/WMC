@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/background3.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+}
+
+.navbar {
+    background-color: #ffff;
+    border-radius: 3px;
+    margin-inline: 15%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    box-shadow: 0px 0px 8px 4px rgba(255, 255, 220, 0.42);
+    z-index: 10;
+}
+
+.navbar .navigationItemsContainer a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.navigationItemsContainer {
+    display: flex;
+    gap: 16px;
+    align-self: center;
+    justify-content: center;
+}
+
+.navbar .navigationItemsContainer a.active {
+    text-decoration: underline;
+}
+
+.contactButtonContainer {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.contactButtonContainer button {
+    margin: auto;
+    color: black;
+}
+
+.navBarLogo {
+    width: 6rem;
+    padding: 1vh 0;
+    margin: auto;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h2 {
+    font-size: 9rem;
+    background-image: url("../img/test.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0.5rem 0;
+}
+
+.hero h3 {
+    font-size: 5rem;
+    margin: 0;
+    text-shadow: 2px 1px 2px rgb(28, 28, 28);
+}
+
+section {
+    padding: 4rem 1rem;
+    width: 100%;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.article {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.article-text {
+    flex: 1;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0px 9px 30px rgba(208, 16, 19, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.article-img {
+    flex: 0 0 250px;
+}
+
+.article-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.owner-img {
+    box-shadow: rgba(208, 16, 19, 0.4) -5px 5px,
+        rgba(208, 16, 19, 0.3) -10px 10px,
+        rgba(208, 16, 19, 0.2) -15px 15px,
+        rgba(208, 16, 19, 0.1) -20px 20px,
+        rgba(208, 16, 19, 0.05) -25px 25px;
+}
+
+.contact-form-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.contact-form-section h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: black;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.table-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.table-section h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.table-section table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.table-section caption {
+    caption-side: top;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.table-section th,
+.table-section td {
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.table-section th {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.primary-button {
+    background-color: #b40000;
+    color: white;
+    border: 0;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+}
+
+.primary-button:hover {
+    background-color: #b40000a1;
+    cursor: pointer;
+}
+
+.secondary-button {
+    background-color: #06b4d2;
+    color: white;
+    border: 0;
+    padding: 1rem 2.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.secondary-button:hover {
+    background-color: #06b4d2a1;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+@media (max-width: 1216px) {
+    .hero h3 {
+        font-size: 4rem;
+    }
+
+    .article {
+        flex-direction: column;
+    }
+
+    .article-text,
+    .article-img {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        margin-inline: 5%;
+        grid-template-columns: auto auto auto;
+    }
+
+    .hero h2 {
+        font-size: 8rem;
+    }
+
+    .navBarLogo {
+        display: none;
+    }
+
+    .contactButtonContainer {
+        display: none;
+    }
+
+    .navbar .navigationItemsContainer a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero h2 {
+        font-size: 7rem;
+    }
+
+    .hero h3 {
+        font-size: 3.5rem;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes revealText {
+    0% {
+        scale: 0;
+    }
+
+    30% {
+        scale: 0;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateY(-5%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über uns</title>
+    <link rel="stylesheet" href="css/theme-dark.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="img/logo.png" alt="logo" class="navBarLogo" />
+
+        <div class="navigationItemsContainer">
+            <a href="#">Startseite</a>
+            <a class="active" href="#">Unternehmen</a>
+            <a href="#">Beschichtungen</a>
+        </div>
+
+        <div class="contactButtonContainer">
+            <button class="secondary-button" id="contactButton">Kontakt</button>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <article class="article-container">
+                <div class="article">
+                    <div class="article-text">
+                        <p>Wir sind ein Unternehmen, welches sich auf die Schwerpunkte Beschichtung, Sanierung von Wand-
+                            und
+                            Bodenflächen insbesondere von Altbeschichtungen spezialisiert hat und verarbeiten
+                            ausschließlich
+                            hochwertige Flüssigkunststoffprodukte um ein perfektes Ergebnis zu erzielen.
+
+                            Der Einsatzbereich unserer Systeme erstreckt sich von Funktions-beschichtungen (so genannten
+                            Industrieböden), über dekorative Wandbeschichtungen bis hin zu Designböden und
+                            Natursteinteppich. Je
+                            nach Aufbau kann die Beständigkeit, die Rutschfestigkeit, das dekorative Aussehen der
+                            Bodenbeschichtung, oder ihr Trittkomfort in den Vordergrund gerückt werden.
+
+                            Die Beschichtungsaufbauten gehen von starr (Epoxidharze) bis hin zu hoch elastischen
+                            Systemen
+                            (auf
+                            Polyurethanbasis). Die Oberfläche kann dabei glatt oder rau, glänzend oder matt hergestellt
+                            werden.
+
+                            Mit unseren EP- bzw. PUR- Beschichtungen schaffen wir hoch belastbare, optisch ansprechende
+                            und
+                            angenehm trittfreundliche Fußböden - realisierbar auf Untergründen wie Beton, Estrichen,
+                            Gussasphalt, Fliesen, Terazzo- und Holzuntergründen.
+
+                            Wegen ihrer geringen Einbautiefe von ca. 3mm und ihrer hoch rissüberbrückenden
+                            Eigenschaften,
+                            eignen
+                            sich vor allem Polyurethanbeschichtungen hervorragend für die Sanierung bestehender
+                            Fußböden.
+                        </p>
+                    </div>
+                    <aside>
+                        <figure class="article-img">
+                            <img class="owner-img" src="img/362589314.jpg" alt="Unternehmens-Leiter-Foto">
+                        </figure>
+                    </aside>
+                </div>
+            </article>
+        </section>
+
+        <section class="table-section">
+            <h3>Unsere Leistungen</h3>
+            <table>
+                <caption>Übersicht unserer Beschichtungsarten</caption>
+                <thead>
+                    <tr>
+                        <th>Art der Beschichtung</th>
+                        <th>Einsatzbereich</th>
+                        <th>Dicke</th>
+                        <th>Besonderheiten</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Epoxidharz</td>
+                        <td>Industrieböden</td>
+                        <td>3-5mm</td>
+                        <td>Sehr belastbar, glatt</td>
+                    </tr>
+                    <tr>
+                        <td>Polyurethan</td>
+                        <td>Sanierung von Altböden</td>
+                        <td>2-4mm</td>
+                        <td>Elastisch, rutschfest</td>
+                    </tr>
+                    <tr>
+                        <td>Designbeschichtung</td>
+                        <td>Wände & Böden</td>
+                        <td>1-3mm</td>
+                        <td>Dekorativ, matt oder glänzend</td>
+                    </tr>
+                    <tr>
+                        <td>Flüssigkunststoff</td>
+                        <td>Terrassen & Balkone</td>
+                        <td>2-4mm</td>
+                        <td>Witterungsbeständig</td>
+                    </tr>
+                    <tr>
+                        <td>PU-Beschichtung</td>
+                        <td>Garagenböden</td>
+                        <td>2-5mm</td>
+                        <td>Rutschhemmend, chemikalienbeständig</td>
+                    </tr>
+                    <tr>
+                        <td>Industrieharz</td>
+                        <td>Produktionshallen</td>
+                        <td>3-6mm</td>
+                        <td>Hohe Abriebfestigkeit</td>
+                    </tr>
+                    <tr>
+                        <td>Farbige Beschichtung</td>
+                        <td>Wohnbereiche</td>
+                        <td>1-2mm</td>
+                        <td>Optisch ansprechend, pflegeleicht</td>
+                    </tr>
+                    <tr>
+                        <td>Rutschfeste Beschichtung</td>
+                        <td>Treppen & Flure</td>
+                        <td>2-3mm</td>
+                        <td>Anti-Rutsch, langlebig</td>
+                    </tr>
+                    <tr>
+                        <td>Epoxid-Designboden</td>
+                        <td>Büros & Läden</td>
+                        <td>2-4mm</td>
+                        <td>Modernes Design, pflegeleicht</td>
+                    </tr>
+                    <tr>
+                        <td>Natursteinteppich</td>
+                        <td>Außenbereiche</td>
+                        <td>2-5mm</td>
+                        <td>Wetterbeständig, dekorativ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="contact-form-section">
+            <h3>Kontaktieren Sie uns</h3>
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Betreff:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Betreff" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Nachricht:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+                </div>
+
+                <button type="submit" class="primary-button">Absenden</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Epox. Alle Rechte vorbehalten.</p>
+        <p>Adresse: Musterstraße 1, 12345 Musterstadt | Telefon: 01234 567890 | E-Mail: info@o.as</p>
+    </footer>
+</body>
+
+</html>
