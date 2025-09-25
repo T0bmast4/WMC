@@ -1,0 +1,5 @@
+<kbd>: Das Keyboard Input-Element
+
+Das <kbd>-HTML-Element stellt einen Bereich von Inline-Text dar, der eine Texteingabe durch Benutzer von einer Tastatur, 
+Spracheingabe oder einem anderen Texteingabegerät bezeichnet. Der User Agent rendert standardmäßig den Inhalt eines <kbd>-Elements 
+in seiner Standard-Monospace-Schriftart, obwohl dies nicht durch den HTML-Standard vorgeschrieben ist.
